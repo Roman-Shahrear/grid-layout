@@ -52,3 +52,28 @@
     font-size: 100px;
     color: #3b5998;
 }
+
+@media only screen and (max-width: 599px){
+    .head {
+        text-align: center;
+    }
+
+    .section-2 .content .left, .right {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+} 
+
+/* @media only screen and (max-width: 599px) {
+    .head {
+        text-align: center;
+    }
+    .section-2 .content .left, .right .circle img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+} */
