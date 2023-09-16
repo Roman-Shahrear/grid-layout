@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 16px;
+}
+
+.left {
+    flex: 1;
+    width: 400px;
+    height: 600px;
+    padding: 20px;
+    background-color: #fafafa;
+
+}
+
+.left .circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background: white;
+    display: grid;
+    place-items: center;
+}
+
+.left .circle img {
+    width: 36px;
+}
+
+.right {
+    flex: 1;
+    height: 600px;
+    background: green;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+}
+
+.right .card {
+    background-color: white;
+}
+
+.icon {
+    font-size: 100px;
+    color: #3b5998;
+}
